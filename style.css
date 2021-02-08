@@ -1,0 +1,23 @@
+#img-area{
+    max-width: 960px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 2fr));
+    gap: 8px;
+    row-gap: 8px;
+}
+#single-img{
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+    width: 100px;
+    background:linear-gradient(#4747f7 70%, white 30%);
+    text-align: center;
+}
+#single-img img{
+    width: 100%;
+    height: auto;
+}
+#text {
+    margin:150px;
+}
